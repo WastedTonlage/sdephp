@@ -7,13 +7,13 @@
     <body>
         
         <?php
-$alder = rand(-100, 200);
+        $alder = rand(-100, 200);
         echo $alder;
         if($alder <= 0 || $alder >= 130){
         echo "Ugyldig alder";}
         
         else {
-        /   if($alder < 18){
+           if($alder < 18){
                 echo "Du får ungdomsrabat";
             }
             elseif($alder >= 18 && $alder <=65){
